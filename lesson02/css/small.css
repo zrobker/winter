@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    font-family: "Helvetica", sans-serif;
+    /* padding: 25px 5px; */
+    margin: 0;
+    background-color: white;  
+    }
+footer {
+    background-color: rgb(56, 153, 243);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    }
+header {
+    background-color: rgb(56, 153, 243);
+    color: black;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;    
+}
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2em;
+}
+.example {
+    background-color: rgb(255, 195, 237);
+    margin: 3em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    font-family: 'Righteous', cursive;
+}
+h1 {
+    font-size: 3em;
+}
