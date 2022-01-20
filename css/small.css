@@ -40,6 +40,8 @@ footer {
 
 }
 #image {
+    width: 200px;
+    align-self: center;
     grid-column: 1/2;
     grid-row: 1/4;
     justify-self: center;
