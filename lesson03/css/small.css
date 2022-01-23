@@ -1,0 +1,31 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    padding: 25px 5px;
+    margin: 0;
+    background-color: #E5DDDC;  
+    }
+header {
+    background-color: #FF695C;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+}
+footer {
+    background-color: #FF695C;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    }
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2em; 
+}
+.image {
+    width: 40%;
+    height: auto;
+}
