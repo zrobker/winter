@@ -62,6 +62,7 @@ nav ul {
 	list-style-type: none;
 	overflow: hidden;
     background-color: #E5DDDC;
+    padding-inline-start: 0px;
 }
 
 nav ul li a {
