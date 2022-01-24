@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px;
+}
 body {
     font-family: 'Dosis', sans-serif;
     /* padding: 25px 5px; */

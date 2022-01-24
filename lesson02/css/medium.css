@@ -1,9 +1,11 @@
-@media screen and (min-width: 32.5em) { 
+@media screen and (min-width: 37.5em) { 
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
         text-align: center;
         grid-gap: 0;
+        margin: auto;
+        overflow-x: hidden;
     }
 
     header, footer {
