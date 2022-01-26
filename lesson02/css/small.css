@@ -5,6 +5,7 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     padding: 5px;
+    text-align: center;
 }
 body {
     font-family: 'Dosis', sans-serif;
