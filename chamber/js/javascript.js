@@ -1,6 +1,7 @@
 window.onload = get_year();
 window.onload = get_date();
 window.onload = get_day_month_year();
+window.onload = banner_display();
 
 function get_date() {
     var LastModif = new Date(document.lastModified);
@@ -18,6 +19,25 @@ function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
+function banner_display() {
+    
+    const message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m"
+
+    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    const d = new Date();
+    let day = weekday[d.getDay()];
+    
+    console.log(message)
+    
+    if (day == "Thursday") {
+        console.log("It worked")
+        document.getElementsByClassName("banner").innerHTML = message;
+    } 
+    else if (day == "Tuesday"){
+        document.getElementsByClassName("banner").innerHTML = message;
+    }
+}
+
 function get_day_month_year() {
     const datefield = document.querySelector(".date");
     const datefieldUK = document.querySelector("aside");
@@ -29,5 +49,6 @@ function get_day_month_year() {
         dateStyle: "full"
     }).format(now);
     datefield.innerHTML = `<em>${fulldate}</em>`;
-    datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+    // broken
+    // datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 }

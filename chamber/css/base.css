@@ -81,6 +81,11 @@ nav ul li a {
 	transition: 0.5s;
 }
 
+.banner {
+    background-color: purple;
+    margin: -20px 0 20px 0;
+}
+
 /* body and main */
 
 body {
