@@ -4,7 +4,7 @@
     }
     main {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr .85fr 1fr;
     }
     #calltoaction {
         grid-row: 1/2;

@@ -77,7 +77,36 @@
         bottom: 5%;
         right: 20%;
     }
+
+    #spotlight3 {
+        display: grid;
+    }
     
+    /* Join Section */
+
+    #join {
+        position: relative;
+        display: grid;
+        font-size: large;
+        padding: 0 2em;
+        padding: 40px;
+    }
+
+    .jointext {
+        margin-top: 45%;
+    }
+
+    .join2 {
+        font-size: 1rem;
+        position: absolute;
+        background-color: #FF695C;
+        color: black;
+        padding: 15px 55px;
+        border-radius: 2em;
+        left: 10%;
+        top: 5%;
+        right: 10%;
+    }
 
 
 }
